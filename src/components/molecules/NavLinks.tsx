@@ -12,7 +12,7 @@ interface NavLinksProps {
 
 export function NavLinks({ activeSection = "home" }: NavLinksProps) {
     return (
-        <nav className="flex items-center gap-8">
+        <nav className="flex items-center gap-6">
             {links.map((link) => (
                 <NavLink
                     key={link.href}
