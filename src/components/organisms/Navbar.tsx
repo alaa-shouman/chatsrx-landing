@@ -29,14 +29,14 @@ export function Navbar() {
     }, [])
 
     return (
-        <header className="sticky top-4 z-50 w-full px-6">
-            <div className="mx-auto max-w-5xl bg-white/90 backdrop-blur-md border border-border shadow-sm rounded-2xl px-6 h-16 grid grid-cols-3 items-center">
+        <header className="sticky top-8 z-50 w-full px-4">
+            <div className="mx-auto max-w-6xl bg-slate-100/90 backdrop-blur-md border  rounded-md px-2 h-16 grid grid-cols-3 items-center">
                 <Logo />
                 <div className="flex justify-center">
                     <NavLinks activeSection={activeSection} />
                 </div>
                 <div className="flex justify-end">
-                    <Button size="lg" className="rounded-full font-semibold px-6">
+                    <Button size="lg" className="rounded-md text-lg font-semibold px-6">
                         Download App
                     </Button>
                 </div>

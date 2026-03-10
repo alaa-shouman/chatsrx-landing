@@ -11,7 +11,7 @@ export function NavLink({ href, label, active = false }: NavLinkProps) {
         <a
             href={href}
             className={cn(
-                "text-sm font-medium transition-colors hover:text-primary",
+                "text-lg font-medium transition-colors hover:text-primary",
                 active ? "text-primary" : "text-foreground"
             )}
         >
