@@ -2,7 +2,7 @@ import { Navbar } from "@/components/organisms/Navbar"
 
 function App() {
   return (
-    <div className="min-h-svh bg-background">
+    <div className="min-h-svh" style={{ background: 'linear-gradient(135deg, #eef2ff 0%, #f0f7ff 50%, #f8fafc 100%)' }}>
       <Navbar />
 
       {/* Placeholder sections for scroll-active detection */}
