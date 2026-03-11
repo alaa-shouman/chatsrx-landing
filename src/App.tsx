@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/organisms/Navbar"
 import { HeroSection } from "@/components/organisms/HeroSection"
+import { HowItWorksSection } from "@/components/organisms/HowItWorksSection"
 import { BackgroundWave } from "@/components/atoms/BackgroundWave"
 
 function App() {
@@ -20,11 +21,12 @@ function App() {
       </div>
 
       {/* ── Remaining sections ── */}
-      <main>
-        <section id="features" className="min-h-screen flex items-center justify-center bg-white">
+      <main >
+        <HowItWorksSection />
+        <section id="features" className="min-h-screen flex items-center justify-center">
           <p className="text-muted-foreground">Features section coming soon</p>
         </section>
-        <section id="contact" className="min-h-screen flex items-center justify-center bg-background">
+        <section id="contact" className="min-h-screen flex items-center justify-center">
           <p className="text-muted-foreground">Contact section coming soon</p>
         </section>
       </main>

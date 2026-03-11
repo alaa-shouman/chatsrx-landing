@@ -52,12 +52,12 @@ export function Navbar() {
                     <button
                         aria-label="Toggle menu"
                         onClick={() => setMenuOpen((o) => !o)}
-                        className="flex flex-col justify-center items-center w-10 h-10 rounded-lg bg-primary text-white gap-[5px] shrink-0"
+                        className="flex flex-col justify-center items-center w-10 h-10 rounded-lg bg-primary text-white gap-1.25 shrink-0"
                     >
                         {/* Hamburger → X transition */}
-                        <span className={`block w-5 h-0.5 bg-white rounded transition-all duration-300 ${menuOpen ? "rotate-45 translate-y-[7px]" : ""}`} />
+                        <span className={`block w-5 h-0.5 bg-white rounded transition-all duration-300 ${menuOpen ? "rotate-45 translate-y-1.75" : ""}`} />
                         <span className={`block w-5 h-0.5 bg-white rounded transition-all duration-300 ${menuOpen ? "opacity-0" : ""}`} />
-                        <span className={`block w-5 h-0.5 bg-white rounded transition-all duration-300 ${menuOpen ? "-rotate-45 -translate-y-[7px]" : ""}`} />
+                        <span className={`block w-5 h-0.5 bg-white rounded transition-all duration-300 ${menuOpen ? "-rotate-45 -translate-y-1.75" : ""}`} />
                     </button>
                 </div>
 
