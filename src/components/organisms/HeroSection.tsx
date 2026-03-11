@@ -27,7 +27,7 @@ export function HeroSection() {
 
                 {/* Right: phone mockups */}
                 <div className="relative flex justify-center items-end" style={{ height: 560 }}>
-                    <img src={"/static/HomePage.png"} alt="Glare" className="absolute w-[110%] top-0 left-1/2 -translate-x-1/2  pointer-events-none" />
+                    <img src={`${import.meta.env.BASE_URL}static/HomePage.png`} alt="App Preview" className="absolute w-[110%] top-0 left-1/2 -translate-x-1/2 pointer-events-none" />
                 </div>
 
             </div>
