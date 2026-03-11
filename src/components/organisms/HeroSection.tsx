@@ -18,8 +18,8 @@ export function HeroSection() {
                         better patient care.
                     </p>
                     <div>
-                        <Button size="lg" className="rounded-full px-8 font-semibold text-base">
-                            Download App
+                        <Button size="lg" className="rounded-full px-8 font-semibold text-base" asChild>
+                            <a href="#contact">Download App</a>
                         </Button>
                     </div>
                 </div>
@@ -44,8 +44,8 @@ export function HeroSection() {
                         simplifying prescription coordination, and saving precious time for
                         better patient care.
                     </p>
-                    <Button size="lg" className="rounded-full px-8 font-semibold text-base w-fit">
-                        Download App
+                    <Button size="lg" className="rounded-full px-8 font-semibold text-base w-fit" asChild>
+                        <a href="#contact">Download App</a>
                     </Button>
                 </div>
 

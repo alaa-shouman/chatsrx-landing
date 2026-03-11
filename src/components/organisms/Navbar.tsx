@@ -39,8 +39,8 @@ export function Navbar() {
                     <NavLinks activeSection={activeSection} />
                 </div>
                 <div className="flex justify-end">
-                    <Button size="lg" className="rounded-md text-lg font-semibold px-6">
-                        Download App
+                    <Button size="lg" className="rounded-md text-lg font-semibold px-6" asChild>
+                        <a href="#contact">Download App</a>
                     </Button>
                 </div>
             </div>
@@ -76,8 +76,8 @@ export function Navbar() {
                                 onClick={() => setMenuOpen(false)}
                             />
                         ))}
-                        <Button className="rounded-full font-semibold w-full mt-1" onClick={() => setMenuOpen(false)}>
-                            Download App
+                        <Button className="rounded-full font-semibold w-full mt-1" asChild onClick={() => setMenuOpen(false)}>
+                            <a href="#contact">Download App</a>
                         </Button>
                     </div>
                 </div>
