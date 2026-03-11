@@ -2,6 +2,7 @@ import { Navbar } from "@/components/organisms/Navbar"
 import { HeroSection } from "@/components/organisms/HeroSection"
 import { HowItWorksSection } from "@/components/organisms/HowItWorksSection"
 import { FeaturesSection } from "@/components/organisms/FeaturesSection"
+import { ChatFeaturesSection } from "@/components/organisms/ChatFeaturesSection"
 import { BackgroundWave } from "@/components/atoms/BackgroundWave"
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <main >
         <HowItWorksSection />
         <FeaturesSection />
+        <ChatFeaturesSection />
         <section id="contact" className="min-h-screen flex items-center justify-center">
           <p className="text-muted-foreground">Contact section coming soon</p>
         </section>
