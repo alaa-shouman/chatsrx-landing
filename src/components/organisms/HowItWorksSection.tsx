@@ -41,7 +41,7 @@ export function HowItWorksSection() {
             <div
                 className="text-center mb-16"
                 style={{
-                    transition: "opacity 0.6s ease-out 0ms, transform 0.6s ease-out 0ms",
+                    transition: inView ? "opacity 0.6s ease-out 0ms, transform 0.6s ease-out 0ms" : "none",
                     opacity: inView ? 1 : 0,
                     transform: inView ? "translateY(0)" : "translateY(30px)",
                 }}
