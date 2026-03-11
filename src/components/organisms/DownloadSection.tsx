@@ -17,9 +17,16 @@ const platforms = [
         buttonText: "Download for Android",
         href: "https://play.google.com/store/apps/details?id=com.tech3e.chatsrx",
         icon: (
-            <svg viewBox="0 0 24 24" className="w-12 h-12 text-[#0ea5e9]" fill="currentColor" aria-hidden="true">
-                <path d="M3 20.5v-17c0-.83 1-.83 1.5-.5l16 8.5-16 8.5c-.5.33-1.5.33-1.5-.5zm2-1.86L17.03 12 5 5.36v13.28z" />
+            <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12 text-[#0ea5e9]" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+                viewBox="0 0 466 511.98">
+                <g id="Layer_x0020_1">
+                    <path fill="#EA4335" fill-rule="nonzero" d="M199.9 237.8l-198.5 232.37c7.22,24.57 30.16,41.81 55.8,41.81 11.16,0 20.93,-2.79 29.3,-8.37l0 0 244.16 -139.46 -130.76 -126.35z" />
+                    <path fill="#FBBC04" fill-rule="nonzero" d="M433.91 205.1l0 0 -104.65 -60 -111.61 110.22 113.01 108.83 104.64 -58.6c18.14,-9.77 30.7,-29.3 30.7,-50.23 -1.4,-20.93 -13.95,-40.46 -32.09,-50.22z" />
+                    <path fill="#34A853" fill-rule="nonzero" d="M199.42 273.45l129.85 -128.35 -241.37 -136.73c-8.37,-5.58 -19.54,-8.37 -30.7,-8.37 -26.5,0 -50.22,18.14 -55.8,41.86 0,0 0,0 0,0l198.02 231.59z" />
+                    <path fill="#4285F4" fill-rule="nonzero" d="M1.39 41.86c-1.39,4.18 -1.39,9.77 -1.39,15.34l0 397.64c0,5.57 0,9.76 1.4,15.34l216.27 -214.86 -216.28 -213.46z" />
+                </g>
             </svg>
+
         ),
     },
     {
