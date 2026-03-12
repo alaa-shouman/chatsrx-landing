@@ -24,15 +24,40 @@ export function Footer() {
                         </a>
                     </div>
 
-                    {/* Right: contact */}
-                    <div className="flex flex-col gap-3">
-                        <h4 className="text-slate-900 font-semibold text-base">Contact</h4>
-                        <a
-                            href="mailto:tech@3e-tech.com"
-                            className="text-slate-600 text-sm hover:text-[#0ea5e9] transition-colors duration-200"
-                        >
-                            tech@3e-tech.com
-                        </a>
+                    {/* Right: contact with legal links */}
+                    <div className="flex flex-col gap-5">
+                        <div className="flex flex-col gap-3">
+                            <h4 className="text-slate-900 font-semibold text-base">Contact</h4>
+                            <a
+                                href="mailto:tech@3e-tech.com"
+                                className="text-slate-600 text-sm hover:text-[#0ea5e9] transition-colors duration-200"
+                            >
+                                tech@3e-tech.com
+                            </a>
+                        </div>
+
+                        {/* Legal links divider */}
+                        <div className="border-t border-slate-200"></div>
+
+                        {/* Legal links */}
+                        <div className="flex flex-col gap-2.5">
+                            <a
+                                href="https://legal.chatsrx.com/privacy-policy.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-slate-600 text-sm hover:text-[#0ea5e9] transition-colors duration-200"
+                            >
+                                Privacy Policy
+                            </a>
+                            <a
+                                href="https://legal.chatsrx.com/terms-of-service.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-slate-600 text-sm hover:text-[#0ea5e9] transition-colors duration-200"
+                            >
+                                Terms of Service
+                            </a>
+                        </div>
                     </div>
 
                 </div>
